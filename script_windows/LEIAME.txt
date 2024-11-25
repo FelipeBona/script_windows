@@ -1,0 +1,9 @@
+1° Entrar no Windows store e atualizar o instalador de arquivos(vá no canto inferior esquerdo em 'downloads' e vá em 'obter atualizações')
+obs: vc vai ver que a primeira etapa vai dar erro, será necessário varias atualizações para aparecer aquela etapa do UCPD
+
+2° Será necessário mudar as politicas do powershell, se não o script vai abrir e fechar----> Abra o powerhshell como admin e coloque 'Set-ExecutionPolicy Unrestricted' isso vai fazer que com que o Windows rode script de terceiros
+(Obs: Quando finalizar, volte para o que era antes 'Set-ExecutionPolicy Restricted' assim ele irá rodar apenas scripts do windows)
+
+3° Se quando você abrir o script e ficar em código as palavras, será necessário entrar no VS Code, ou qualquer outro lugar e alterar para UTF-8 ou UTF-8 with BOM (um dos dois funciona, vai depender da maquina, esse script já esta em UTC-8 with BOM)
+
+4° Qualquer dúvida, me chama
