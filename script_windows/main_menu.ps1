@@ -37,7 +37,7 @@ function mainmenu {
     Clear-Host
     Write-Host "" 
     Write-Host ""
-    Write-Host "Todos os direitos reservados © Igor Lima - 2024"
+    Write-Host "Todos os direitos reservados © Excel Engenharia"
     Write-Host "======================================================================================================================"
     Write-Host "                                           Escolha uma das opções abaixo"
     Write-Host "======================================================================================================================" 
